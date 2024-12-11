@@ -5,3 +5,10 @@
 #Créez plusieurs satellites avec des valeurs différentes.
 #Ajoutez deux méthodes accélérer/ralentir permettant de modifier automatiquement la vitesse
 #du satellite. LA vitesse maximale du satellite est définit comme étant égale au triple de sa masse. 
+
+class satellite:
+    def __init__(sat,mss=100,spd=0):
+        print("Masse du Satellite:")
+        sat.mss = int(input())
+        print("Vitesse du satellite:")
+        sat.spd = int(input())
