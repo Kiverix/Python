@@ -30,3 +30,35 @@ class carre(rectangle):
 
 c = carre(5,5)
 c.affiche()
+
+
+class Rectangle:
+    def __init__(self, larg=0,long=0):
+        self.largeur = larg
+        self.longueur = long
+        self.nom = "rectangle"
+    
+    def perimetre(self):
+        return 2*(self.largeur + self.longueur)
+    
+    def surface(self):
+        return self.largeur * self.longueur
+
+    def affiche(self):
+        print("Type:", self.nom)
+        print("Perimetre: ",self.perimetre())
+        print("Surface", self.surface())
+        print("Dimensions:", self.largeur, self.longueur)
+
+class Carre(Rectangle):
+    def __init__(self, c,d):
+        super().__init__(c, c)
+        self.nom = "carre"
+
+
+
+c = Carre(5,5)
+c.affiche()
+
+r = Rectangle(10,12)
+r.affiche()
