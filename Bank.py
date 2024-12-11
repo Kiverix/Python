@@ -10,5 +10,12 @@
 # solde
 
 class CompteBancaire:
-    def __init__(self):
-        
+    def __init__(self, nom="Doe", solde=1000):
+        self.nom = nom
+        self.solde = solde
+    #def depot(somme):
+    def affiche():
+        print("Compte de: ",self.nom, "solde: ", self.solde)
+
+test = CompteBancaire()
+test.affiche()
