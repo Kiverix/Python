@@ -10,4 +10,6 @@
 
 ### Création
 - Classe "Etudiant":
-- ____"__innit__"
+- ____ "__innit__" (innit est un constructeur)
+- ____ def __innit__(self):
+- ________ self.nom = (valleure)
