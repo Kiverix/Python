@@ -6,3 +6,5 @@ class Etudiant:
         self.prenom = input()
         
 bob = Etudiant()
+bob.nom = "Michel"
+print(bob.nom)
