@@ -12,4 +12,7 @@
 - Classe "Etudiant":
 - ____ "__innit__" (innit est un constructeur)
 - ____ def __innit__(self):
+- ________ instance.attribut = (valleure)
 - ________ self.nom = (valleure)
+- ________ self.prenom = (valleure)
+- ________ print(self.prenom)
